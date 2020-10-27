@@ -5,7 +5,7 @@ const Followers = (props) => {
     return ( 
         <div>
             {followers.map((follower, index) => { 
-                return <UserCard follower={follower} key={index} />
+                return <UserCard user={follower} key={index} />
             })}
         </div>
      );
