@@ -1,0 +1,17 @@
+.app {
+  text-align: center;
+  margin: 25px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+.user {
+  width: 25%;
+}
+
+ul {
+  list-style-type: none;
+}
